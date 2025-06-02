@@ -1,0 +1,25 @@
+# Duże dane genomowe
+*.bam
+*.bam.bai
+*.vcf.gz
+*.vcf.gz.tbi
+*.h5
+
+# Gencode annotation
+*.gtf
+
+# FTP i inne tymczasowe
+*.txt:Zone.Identifier
+
+# IDE (np. PyCharm, VSCode)
+.idea/
+*.iml
+*.vscode/
+
+# Conda environment files
+*.yml
+*.env
+
+# OS pliki tymczasowe
+.DS_Store
+Thumbs.db

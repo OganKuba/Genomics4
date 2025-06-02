@@ -1,0 +1,68 @@
+MAGE-TAB Version	1.1
+Investigation Title	RNA-sequencing of 465 lymphoblastoid cell lines from the 1000 Genomes
+
+Experimental Design	population based design	operator variation design
+Experimental Design Term Source REF	EFO	EFO
+Experimental Design Term Accession Number
+
+Experimental Factor Name	ancestry category	individual
+Experimental Factor Type	ancestry category	individual
+Experimental Factor Term Source REF	EFO	EFO
+Experimental Factor Term Accession Number
+
+Person Last Name	Dermitzakis	Kurbatova	Lappalainen
+Person First Name	Emmanouil	Natalja	Tuuli
+Person Mid Initials
+Person Email	emmanouil.dermitzakis@unige.ch	natalja@ebi.ac.uk	Tuuli.Lappalainen@unige.ch
+Person Phone
+Person Fax
+Person Affiliation	UNIGE	EBI	UNIGE
+Person Address
+Person Roles	investigator	submitter	investigator
+Person Roles Term Source REF
+Person Roles Term Accession Number
+
+Quality Control Type
+Quality Control Term Source REF
+Quality Control Term Accession Number
+
+Replicate Type
+Replicate Term Source REF
+Replicate Term Accession Number
+
+Normalization Type
+Normalization Term Source REF
+Normalization Term Accession Number
+
+Date of Experiment
+Public Release Date	2012-11-06
+
+PubMed ID	24037378	27617755	26211970
+Publication DOI	10.1038/nature12531	10.1038/srep32406	10.1016/j.ajhg.2015.06.010
+Publication Author List	Lappalainen T, Sammeth M, Friedländer MR, 't Hoen PA, Monlong J, Rivas MA, Gonzàlez-Porta M, Kurbatova N, Griebel T, Ferreira PG, Barann M, Wieland T, Greger L, van Iterson M, Almlöf J, Ribeca P, Pulyakhina I, Esser D, Giger T, Tikhonov A, Sultan M, Bertier G, MacArthur DG, Lek M, Lizano E, Buermans HP, Padioleau I, Schwarzmayr T, Karlberg O, Ongen H, Kilpinen H, Beltran S, Gut M, Kahlem K, Amstislavskiy V, Stegle O, Pirinen M, Montgomery SB, Donnelly P, McCarthy MI, Flicek P, Strom TM, Geuvadis Consortium, Lehrach H, Schreiber S, Sudbrak R, Carracedo A, Antonarakis SE, Häsler R, Syvänen AC, van Ommen GJ, Brazma A, Meitinger T, Rosenstiel P, Guigó R, Gut IG, Estivill X, Dermitzakis ET.	Ferreira PG, Oti M, Barann M, Wieland T, Ezquina S, Friedländer MR, Rivas MA, Esteve-Codina A, GEUVADIS Consortium, Rosenstiel P, Strom TM, Lappalainen T, Guigó R, Sammeth M.	Vicente CT, Edwards SL, Hillman KM, Kaufmann S, Mitchell H, Bain L, Glubb DM, Lee JS, French JD, Ferreira MA.
+Publication Title	Transcriptome and genome sequencing uncovers functional variation in humans.	Sequence variation between 462 human individuals fine-tunes functional sites of RNA processing.	Long-Range Modulation of PAG1 Expression by 8q21 Allergy Risk Variants.
+Publication Status	published	published	published
+Publication Status Term Source REF
+Publication Status Term Accession Number
+
+Experiment Description	10.1038/nature12531	10.1038/srep32406	10.1016/j.ajhg.2015.06.010
+
+Protocol Name	P-GEUV-2	P-GEUV-1	P-GEUV-7	P-GEUV-6	P-GEUV-5
+Protocol Type	nucleic acid extraction protocol	growth protocol	high throughput sequence alignment protocol	nucleic acid sequencing protocol	nucleic acid library construction protocol
+Protocol Term Source REF	EFO	EFO	EFO	EFO	EFO
+Protocol Term Accession Number
+Protocol Description	Total RNA was extracted from cell pellets in the University of Geneva using the TRIzol Reagent (Ambion) according to the manufacturer's guidelines. No DNAse treatment was done to the RNA samples. RNA quality was assessed by Agilent Bioanalyzer RNA 6000 Nano Kit, and RNA quantity was measured by Qubit 2.0 (Invitrogen) using the RNA Broad range kit according to the manufacturer's instructions.	For information about the sample characteristics, populations, and available genotype information, see http://www.1000genomes.org and http://ccr.coriell.org . EVB transformed lymphoblastoid cell lines (LCLs) were shipped to ECACC (European COllection of Cell Cultures) as live cultures (06/2011 - 09/2011), in batches of ~ 30 samples from Coriell (GBR,FIN & TSI) and 2 x ~90 samples (CEU & YRI) from University of Geneva. In ECACC, the cell lines were cultured to approximately 1.2 x 10e8 cells (06/2011-10/2011). Snap frozen pellets of 2 x 10e7 cells were produced from proliferating cultures without additives.	The reads were mapped to the human hg19 reference genome (autosomes+X+Y+M) with the GEM mapper v 1.349 mapping entire reads, and split mapping the unmapped reads (see http://www.geuvadis.org/web/geuvadis/our-rnaseq-project for settings). In the bam files, mapping quality is scored as follows: 1) Matches which are unique, and do not have any subdominant match: 251 >= MAPQ >= 255, XT=U ; 2) Matches which are unique, and have subdominant matches but a different score: 175 >= MAPQ >= 181, XT=U ; 3) Matches which are putatively unique (not unique, but distinguishable by score): 119 >= MAPQ >= 127, XT=U ; Matches which are a perfect tie: 78 >= MAPQ >= 90, XT=R. Number of mismatches is not reflected in MAPQ but the information of total mismatches in both mates is found in the NM flag.	The sequencing platform was Illumina HiSeq. The cluster generation kit was TruSeq PE Cluster Kit v3, and the sequencing kit was TruSeq SBS Kit v3. 75 bp paired-end sequencing was done to the depth of a minimum of 20M mapped reads.	Sample processing for sequencing was done in a random order in each of the seven laboratories. Two batches of replicates were done: 5 samples were sequenced in every laboratory (twice in the University of Geneva), and additionally, 168 samples (mostly CEU and YRI samples) that were originally sequenced in the other laboratories were prepped and sequenced at about 1/2 of the normal coverage in University of Geneva. Library preparation was done with TruSeq RNA Sample Prep Kit v2 using the high-throughput protocol.
+Protocol Parameters
+Protocol Hardware				Illumina HiSeq 2000
+Protocol Software			GEM mapper 1.349
+Protocol Contact
+
+Term Source Name	EFO	NCBI Taxonomy	ArrayExpress
+Term Source File	http://www.ebi.ac.uk/efo/	http://www.ncbi.nlm.nih.gov/Taxonomy/	http://www.ebi.ac.uk/arrayexpress/
+Term Source Version	2.81	2.31
+
+SDRF File	E-GEUV-1.sdrf.txt
+Comment [SecondaryAccession]	ERP001942
+Comment [SequenceDataURI]	http://www.ebi.ac.uk/ena/data/view/ERR188021-ERR188482
+Comment [AEExperimentType]	RNA-seq of coding RNA
+Comment[ArrayExpressAccession]	E-GEUV-1
